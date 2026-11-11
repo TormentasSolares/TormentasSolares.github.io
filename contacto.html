@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | Tormentas Solares</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="galaxia">
+  <div class="espiral"></div>
+  <div class="sol"></div>
+  <div class="planeta1"></div>
+  <div class="planeta2"></div>
+  <div class="fugaz"></div>
+  <div class="estrella" style="width:4px;height:4px;top:10%;left:20%"></div>
+  <div class="estrella" style="width:3px;height:3px;top:25%;left:70%;animation-delay:.5s"></div>
+  <div class="estrella" style="width:5px;height:5px;top:15%;left:55%;animation-delay:1s"></div>
+</div>
+
+<header>
+  <div class="logo">☀️ TORMENTAS SOLARES</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="contenido.html">Contenido</a>
+    <a href="adicional.html">Más Info</a>
+    <a href="contacto.html" class="activo">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <section class="caja">
+    <h1>Contáctanos</h1>
+    <p>¿Tienes dudas sobre las tormentas solares? ¡Escríbenos!</p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+      <label for="tema">Tema:</label>
+      <select id="tema" name="tema">
+        <option>Erupciones solares</option>
+        <option>Auroras</option>
+        <option>Efectos en tecnología</option>
+        <option>Otro</option>
+      </select>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpiar</button>
+    </form>
+    <br>
+    <a href="index.html">← Regresar a Inicio</a>
+  </section>
+</main>
+<footer><p>Proyecto escolar - Tormentas Solares</p></footer>
+</body>
+</html>
